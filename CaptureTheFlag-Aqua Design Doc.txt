@@ -1,0 +1,80 @@
+﻿Capture The Flag - Aqua
+Last modified: Sat., Apr. 13, 2019 @ 1606 hrs.
+
+
+
+
+GAME IDENTITY 
+Simple-graphics version of every-man-for-himself capture-the-flag where players use water-weapons to eliminate one another.
+
+
+DESIGN PILLARS
+Strategy-centric. Fun. Simple.
+
+
+GENRE/STORY/MECHANICS SUMMARY
+The game is a third-person perspective of the battle between the characters. Gameplay is continuous (rather than turn-based).
+
+
+FEATURES
+*Different arenas (of varied sizes and with different layouts) for variety
+*A High-scores list (displaying shortest times of victory)
+
+
+INTERFACE
+In the game, the player will interact with the game through the keyboard. Before the game begins, there will be a small GUI allowing user to pick a player of desired skill level
+
+
+ART STYLE
+Grid-based underlying movement, but no grid lines displayed
+MUSIC/SOUND
+(Include links to music and sound design similar to What you're trying to achieve. You can also list the emotional responses that the sound should invoke in the player.)
+
+
+DEVELOPMENT ROADMAP/LAUNCH CRITERIA
+(Platform: Steam/Google Play/iOS/Web.
+Audience:)
+
+
+Milestones:
+1. Get one player drawn on screen
+2. Get one player moving on screen
+3. Incorporate grid
+4. Have player moving on grid
+5
+________________
+Player Types
+        -Speedster Sam (moves fastest for certain time, but when carrying items, moves at
+regular speed)
+        -Mighty Martin (moves at regular pace; but able to carry multiple items in sack, though
+he travels slower then)
+        -Camo Calvin (is able to go invisible/camouflaged around inanimate objects)
+        -Hacker Hank (is able to set off all sprinklers x times during the game)
+        -Digging Dan (is able to dig secret water mines and is able to bury weapons for later)
+        -Raincoat Randy (is able to use a raincoat (equal to a shield) at any time during game;
+but with raincoat, he is slower and can also trip with probability t = 0.05 * ½(# of
+seconds he’s been wearing it)
+        -Power-fire Pete (has a special gun can shoot faster with water guns/water balloons;
+water travels faster when ejected from his gun)
+
+
+When a person goes out of the game, he drops the item(s) he’s carrying
+
+
+Water Weapons
+        -Shield
+        -Water gun (variable range and capacity)
+        -Water balloons
+        
+Other Items
+        -Sprinklers...go off at certain times; variable range
+        -Rocks/Trees/Bushes
+        -Water spouts (to fill balloons and water guns)
+        -Flag
+        -Win Spot (when a player possesses the flag and makes contact with the win spot, the
+game is over)
+
+
+The game is over when either:
+1. Everyone else is eliminated
+2. One player captures the flag and takes it to the win spot
